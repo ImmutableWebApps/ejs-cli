@@ -14,10 +14,16 @@ npm i -g @immutablewebapps/ejs-cli
 
 ```bash
 # render from local template
-cat ./index.ejs | iwa-ejs --d config.json > index.html
+cat index.ejs | iwa-ejs --d config.json > index.html
 
 # or remote template
 curl http://assets.example.com/v1.2.3/index.ejs | iwa-ejs --d config.json > index.html
+```
+
+### Alternatively, use [npx](https://www.npmjs.com/package/npx)
+
+```bash
+cat index.ejs | npx @immutablewebapps/ejs-cli --d src/json.json > index.html
 ```
 
 ## Disclaimer
