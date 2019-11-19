@@ -10,8 +10,8 @@
   }, 
   "preferGlobal": true,
   "dependencies": {
-    "ejs": "^2.6.1",
-    "get-stdin": "^6.0.0",
-    "minimist": "^1.2.0"
+    "ejs": "2.6.x",
+    "get-stdin": "6.0.x",
+    "minimist": "1.2.x"
   }
 }
