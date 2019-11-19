@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "bin": {
     "iwa-ejs": "./bin/iwa-ejs.js"
-  }, 
+  },
   "preferGlobal": true,
   "dependencies": {
     "ejs": "2.6.x",
