@@ -1,6 +1,6 @@
 {
   "name": "@immutablewebapps/ejs-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Render index.html from an EJS template for Immutable Web Apps",
   "main": "lib/index.js",
   "author": "Gene Connolly",
